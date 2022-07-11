@@ -58,7 +58,7 @@ function cutlass.override_select_bindings()
   end
 
   map("s", "<bs>", '<c-o>"_c', keymap_opts)
-  map("s", "<space>", '<c-o>"_c<space>', keymap_opts)
+  -- map("s", "<space>", '<c-o>"_c<space>', keymap_opts)
 end
 
 function cutlass.create_cut_bindings()
